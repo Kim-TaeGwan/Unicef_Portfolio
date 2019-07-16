@@ -1,5 +1,49 @@
+body, html {
+  height: 100%;
+  margin: 0; }
+
 .container {
-  width: 100%; }
-  .container .main .main_bg {
-    background-image: url("../img/main_bg.jpg");
+  height: 100%;
+  position: relative; }
+  .container .wrap_fixed {
+    position: absolute; }
+    .container .wrap_fixed .logo {
+      overflow: hidden;
+      position: fixed;
+      z-index: 100;
+      top: 5%;
+      left: 4%; }
+  .container .main {
+    background: url("../img/main_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .container .content01 {
+    padding: 5px 15px;
+    background: url("../img/main_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .container .content02 {
+    padding: 5px 15px;
+    background: url("../img/main_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .container .content03 {
+    padding: 5px 15px;
+    background: url("../img/main_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .container .content04 {
+    padding: 5px 15px;
+    background: url("../img/main_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover; }
