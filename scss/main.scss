@@ -78,6 +78,7 @@ body, html{height: 100%; margin: 0;}
         }
     }
     .main{
+        overflow: hidden;
         background: url("../img/main_bg.jpg");
         height: 100%;
         background-position: center;
@@ -103,14 +104,14 @@ body, html{height: 100%; margin: 0;}
         }
     }
     .content01{
+        height: 100%;
+    }
+    .content02{
         padding: 5px 15px;
         background: url("../img/main_bg.jpg");
-        height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    .content02{
         height: 100%;
     }
     .content03{
