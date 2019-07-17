@@ -4,6 +4,7 @@ body, html {
   margin: 0; }
 
 .container {
+  width: 100%;
   height: 100%;
   position: relative; }
   .container .wrap_fixed .logo {
@@ -15,7 +16,8 @@ body, html {
   .container .wrap_fixed .side_page {
     position: fixed;
     right: 3%;
-    top: 40%; }
+    top: 40%;
+    z-index: 100; }
     .container .wrap_fixed .side_page .page_list {
       text-align: right; }
   .container .wrap_fixed .event_button {
@@ -73,7 +75,22 @@ body, html {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    position: relative; }
+    .container .main .main_contentbox {
+      width: 100%;
+      height: 235px;
+      position: absolute;
+      top: 38%;
+      right: -51%;
+      z-index: 100; }
+      .container .main .main_contentbox .main_content01 {
+        width: 100%;
+        margin-bottom: 47px; }
+      .container .main .main_contentbox .main_content02 {
+        font-size: 32px;
+        color: #fff;
+        font-weight: 700; }
   .container .content01 {
     padding: 5px 15px;
     background: url("../img/main_bg.jpg");
