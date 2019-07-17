@@ -4,13 +4,76 @@ body, html{height: 100%; margin: 0;}
     height: 100%;
     position: relative;
     .wrap_fixed{
-        position: absolute;
         .logo{
             overflow: hidden;
             position: fixed;
             z-index: 100;
             top: 5%;
             left : 4%;
+        }
+        .side_page{
+            position: fixed;
+            right: 3%;
+            top: 40%;
+            .page_list{
+                text-align: right;
+            }
+        }
+        .event_button{
+            width: 471px;
+            height: 110px;
+            z-index: 100;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            background-color: #fff;
+            box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.2);
+            .button_content{
+                position: relative;
+                img{
+                    position: absolute;
+                    top: 0;
+                    left: 37px;
+                    margin-top: 10px;
+                    width: 96px;
+                }
+                .button_text{
+                    display: inline-block;
+                    padding: 44px 100px 44px 130px;
+                    font-size: 22px;
+                    font-weight: 400;
+                }
+                .button_arr{
+                    position: absolute;
+                    top: 50%;
+                    right: 36px;
+                    width: 40px;
+                    height: 16px;
+                    vertical-align: middle;
+                    transform: translateY(-50%); /* ??왜? */
+                    background: url("../img/btn_ring_b.png");
+                }
+            }
+            .button_content:hover{
+                background-color: #1cabe2;
+                .button_text{
+                    display: inline-block;
+                    padding: 44px 100px 44px 130px;
+                    font-size: 22px;
+                    font-weight: 400;
+                    color: #fff;
+                }
+                .button_arr{
+                    position: absolute;
+                    top: 50%;
+                    right: 36px;
+                    width: 40px;
+                    height: 16px;
+                    vertical-align: middle;
+                    transform: translateY(-50%); /* ??왜? */
+                    background: url("../img/btn_ring_w.png");
+                }
+            }
         }
     }
     .main{
@@ -29,25 +92,20 @@ body, html{height: 100%; margin: 0;}
         background-size: cover;
     }
     .content02{
+        height: 100%;
+    }
+    .content03{
         padding: 5px 15px;
         background: url("../img/main_bg.jpg");
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-    }    .content03{
+    }  
+    .content04{
         padding: 5px 15px;
-        background: url("../img/main_bg.jpg");
+        background: #1cabe2;
         height: 100%;
         background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }    .content04{
-        padding: 5px 15px;
-        background: url("../img/main_bg.jpg");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
