@@ -96,7 +96,29 @@ body, html {
         color: #fff;
         font-weight: 700; }
   .container .content01 {
-    height: 100%; }
+    width: 100%;
+    background: url("../img/bg_3920.jpg") center 0; }
+    .container .content01 .content01_box {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 1439px; }
+      .container .content01 .content01_box .content01_title {
+        padding-top: 234px;
+        padding-left: 73px;
+        margin-bottom: 150px; }
+        .container .content01 .content01_box .content01_title .title01 {
+          margin-bottom: 39px; }
+      .container .content01 .content01_box .content01_con1 .con1_left .dot {
+        width: 16px;
+        margin-top: 22px; }
+      .container .content01 .content01_box .content01_con1 .con1_left .title01 .text1 {
+        font-size: 36px;
+        color: #36384f;
+        font-weight: 700; }
+      .container .content01 .content01_box .content01_con1 .con1_left .title01 .text2 {
+        color: #40b87e;
+        font-size: 36px;
+        font-weight: 700; }
   .container .content02 {
     padding: 5px 15px;
     background: url("../img/main_bg.jpg");
