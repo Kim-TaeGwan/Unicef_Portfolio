@@ -124,6 +124,8 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
             }
             .content01_con1{
                 .con1_left{
+                    padding-top: 82px;
+                    padding-left: 138px;
                     .dot{
                         width: 16px;
                         margin-top: 22px;
@@ -138,6 +140,13 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
                             color: #40b87e;
                             font-size: 36px;
                             font-weight: 700;
+                        }
+                        .text3{
+                            p{
+                                margin-bottom: 8px;
+                                font-size: 15px;
+                                color: #1e1f2c;
+                            }
                         }
                     }
                 }
