@@ -121,7 +121,8 @@ body, html {
         .container .content01 .content01_box .content01_con1 .con1_left .title01 .text2 {
           color: #40b87e;
           font-size: 36px;
-          font-weight: 700; }
+          font-weight: 700;
+          margin-bottom: 39px; }
         .container .content01 .content01_box .content01_con1 .con1_left .title01 .text3 p {
           margin-bottom: 8px;
           font-size: 15px;
