@@ -156,8 +156,19 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
                 .con1_right{
                     float: right;
                     .right_img {
-                        img{
-
+                        position: relative;
+                        .right_text_img{
+                            margin-right: 70px;
+                            box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.2)
+                        }
+                        .right_img_text{
+                            position: absolute;
+                            top: 49px;
+                            right: 0;
+                            .right_text1{
+                                width: 320px;
+                                margin-bottom: 12px;
+                            }
                         }
                     }
                 }

@@ -132,6 +132,18 @@ body, html {
             color: #1e1f2c; }
         .container .content01 .content01_box .content01_con1 .con1_right {
           float: right; }
+          .container .content01 .content01_box .content01_con1 .con1_right .right_img {
+            position: relative; }
+            .container .content01 .content01_box .content01_con1 .con1_right .right_img .right_text_img {
+              margin-right: 70px;
+              box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.2); }
+            .container .content01 .content01_box .content01_con1 .con1_right .right_img .right_img_text {
+              position: absolute;
+              top: 49px;
+              right: 0; }
+              .container .content01 .content01_box .content01_con1 .con1_right .right_img .right_img_text .right_text1 {
+                width: 320px;
+                margin-bottom: 12px; }
   .container .content02 {
     padding: 5px 15px;
     background: url("../img/main_bg.jpg");
