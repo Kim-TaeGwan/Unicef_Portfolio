@@ -132,7 +132,7 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
                         width: 16px;
                         margin-top: 22px;
                     }
-                    .title01{
+                    .title{
                         .text1{
                             font-size: 36px;
                             color:#36384f;
@@ -146,7 +146,7 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
                         }
                         .text3{
                             p{
-                                margin-bottom: 8px;
+                                margin-bottom: 1px;
                                 font-size: 15px;
                                 color: #1e1f2c;
                             }
@@ -159,7 +159,108 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
                         position: relative;
                         .right_text_img{
                             margin-right: 70px;
-                            box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.2)
+                            box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.2);
+                        }
+                        .right_img_text{
+                            position: absolute;
+                            top: 49px;
+                            right: 0;
+                            .right_text1{
+                                width: 320px;
+                                margin-bottom: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+            .content01_con2{
+                margin-top: 124px;
+                margin-bottom: 124px;
+                overflow: hidden;
+                .con2_left{
+                    float: left;
+                    .left_img{
+                        position: relative;
+                        .left_text_img{
+                            margin-left: 70px;
+                            box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.2);
+                        }
+                        .left_img_text{
+                            position: absolute;
+                            top: 49px;
+                            left: 0;
+                            .left_text1{
+                                width: 320px;
+                                margin-bottom: 12px;
+                            }
+                        }
+                    }
+                }
+                .con2_right{
+                    float: left;
+                    padding-top: 94px;
+                    padding-left: 66px;
+                    .title{
+                        .text1{
+                            font-size: 36px;
+                            color:#36384f;
+                            font-weight: 700;
+                        }
+                        .text2{
+                            color: #f6bc30;
+                            font-size: 36px;
+                            font-weight: 700;
+                            margin-bottom: 39px;
+                        }
+                        .text3{
+                            p{
+                                margin-bottom: 1px;
+                                font-size: 15px;
+                                color: #1e1f2c;
+                            }
+                        }
+                    }
+                }
+            }
+            .content01_con3{
+                overflow: hidden;
+                margin-bottom: 246px;
+                .con3_left{
+                    float: left;
+                    padding-top: 82px;
+                    padding-left: 138px;
+                    .dot{
+                        width: 16px;
+                        margin-top: 22px;
+                    }
+                    .title{
+                        .text1{
+                            font-size: 36px;
+                            color:#36384f;
+                            font-weight: 700;
+                        }
+                        .text2{
+                            color: #ee5419;
+                            font-size: 36px;
+                            font-weight: 700;
+                            margin-bottom: 39px;
+                        }
+                        .text3{
+                            p{
+                                margin-bottom: 1px;
+                                font-size: 15px;
+                                color: #1e1f2c;
+                            }
+                        }
+                    }
+                }
+                .con3_right{
+                    float: right;
+                    .right_img {
+                        position: relative;
+                        .right_text_img{
+                            margin-right: 70px;
+                            box-shadow: 6px 8px 20px 0px rgba(0, 0, 0, 0.2);
                         }
                         .right_img_text{
                             position: absolute;
