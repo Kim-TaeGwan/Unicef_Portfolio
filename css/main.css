@@ -263,11 +263,7 @@ body, html {
         font-weight: 300; }
   .container .content03 {
     padding: 5px 15px;
-    background: url("../img/main_bg.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    height: 100%; }
   .container .content04 {
     padding: 5px 15px;
     background: #1cabe2;
