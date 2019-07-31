@@ -58,20 +58,8 @@ body, html {
     .container .wrap_fixed .event_button .button_content:hover {
       background-color: #1cabe2; }
       .container .wrap_fixed .event_button .button_content:hover .button_text {
-        display: inline-block;
-        padding: 44px 100px 44px 130px;
-        font-size: 22px;
-        font-weight: 400;
         color: #fff; }
       .container .wrap_fixed .event_button .button_content:hover .button_arr {
-        position: absolute;
-        top: 50%;
-        right: 36px;
-        width: 40px;
-        height: 16px;
-        vertical-align: middle;
-        transform: translateY(-50%);
-        /* ??왜? */
         background: url("../img/btn_ring_w.png"); }
   .container .main {
     overflow: hidden;
@@ -217,10 +205,62 @@ body, html {
                 width: 320px;
                 margin-bottom: 12px; }
   .container .content02 {
-    padding: 5px 15px;
+    width: 100%;
+    height: 1000px;
     background: #1cabe2;
-    height: 100%;
     background-position: center; }
+    .container .content02 .content02_box {
+      position: relative;
+      padding-top: 234px;
+      margin: 0 auto;
+      max-width: 1296px; }
+      .container .content02 .content02_box .content02_con1 .content02_title .title01 {
+        margin-bottom: 29px; }
+      .container .content02 .content02_box .content02_con1 .content02_title .title02 {
+        margin-bottom: 45px; }
+        .container .content02 .content02_box .content02_con1 .content02_title .title02 p {
+          font-size: 48px;
+          color: #fff;
+          font-weight: 700;
+          font-family: 'Lato', sans-serif; }
+      .container .content02 .content02_box .content02_con1 .content02_title .title03 {
+        margin-bottom: 84px;
+        font-size: 20px;
+        color: #fff;
+        line-height: 28px;
+        font-family: 'Lato', sans-serif; }
+      .container .content02 .content02_box .content02_con1 .content02_title .btn {
+        width: 409px;
+        height: 108px;
+        padding: 26px 31px;
+        background-color: #fff;
+        box-sizing: border-box;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif; }
+        .container .content02 .content02_box .content02_con1 .content02_title .btn .button_arr {
+          position: absolute;
+          left: 350px;
+          width: 40px;
+          height: 16px;
+          vertical-align: middle;
+          transform: translateY(-50%);
+          /* ??왜? */
+          background: url("../img/btn_ring_b.png"); }
+      .container .content02 .content02_box .content02_con1 .content02_title .btn:hover {
+        background-color: #374ea2;
+        color: #fff; }
+        .container .content02 .content02_box .content02_con1 .content02_title .btn:hover .button_arr {
+          background: url("../img/btn_ring_w.png"); }
+      .container .content02 .content02_box .content02_con2 {
+        position: absolute;
+        right: 0;
+        bottom: -109px; }
+      .container .content02 .content02_box .content02_foot {
+        position: absolute;
+        bottom: -250px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 300; }
   .container .content03 {
     padding: 5px 15px;
     background: url("../img/main_bg.jpg");
