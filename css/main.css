@@ -262,10 +262,32 @@ body, html {
         font-size: 15px;
         font-weight: 300; }
   .container .content03 {
-    padding: 5px 15px;
-    height: 100%; }
+    width: 100%;
+    min-width: 1280px;
+    height: 314px;
+    background: #b29475; }
+    .container .content03 .content03_box {
+      margin: 0 auto;
+      max-width: 1296px;
+      overflow: hidden; }
+      .container .content03 .content03_box .float_left .con3_img {
+        float: left; }
+      .container .content03 .content03_box .float_left .con3_txt {
+        float: left;
+        padding-left: 55px; }
+        .container .content03 .content03_box .float_left .con3_txt .tit {
+          margin-bottom: 27px;
+          font-size: 22px;
+          color: #36384f; }
+        .container .content03 .content03_box .float_left .con3_txt .insert {
+          color: #36384f;
+          font-size: 15px;
+          line-height: 24px; }
+          .container .content03 .content03_box .float_left .con3_txt .insert span {
+            display: block; }
+          .container .content03 .content03_box .float_left .con3_txt .insert .en {
+            display: inline-block; }
   .container .content04 {
-    padding: 5px 15px;
-    background: #1cabe2;
+    width: 100%;
     height: 100%;
-    background-position: center; }
+    background: url("../img/bg_3920.jpg") center 0; }

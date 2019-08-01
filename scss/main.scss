@@ -340,13 +340,51 @@ body, html{height: 100%; margin: 0; font-family: 'Noto Sans KR', sans-serif;}
         }
     }
     .content03{
-        padding: 5px 15px;
-        height: 100%;
+        width: 100%;
+        min-width: 1280px;
+        height: 314px;
+        background: #b29475;
+        .content03_box{
+            margin: 0 auto;
+            max-width: 1296px;
+            overflow: hidden;
+            .float_left{
+                // position: relative;
+                .con3_img{
+                    // position: absolute;
+                    // top: 50%;
+                    // left: 0;
+                    float: left;
+
+                }
+                .con3_txt{
+                    // position: absolute;
+                    // top: 50px;
+                    float: left;
+                    padding-left: 55px;
+                    .tit{
+                        margin-bottom: 27px;
+                        font-size: 22px;
+                        color: #36384f;
+                    }
+                    .insert{
+                        color: #36384f;
+                        font-size: 15px;
+                        line-height: 24px;
+                        span{
+                            display: block;
+                        }
+                        .en{
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
     }  
     .content04{
-        padding: 5px 15px;
-        background: #1cabe2;
+        width: 100%;
         height: 100%;
-        background-position: center;
+        background: url('../img/bg_3920.jpg') center 0;
     }
 }
